@@ -1,0 +1,10 @@
+<img [src]="src">
+<button [disabled]='bool'>Disabled Property Binding</button>
+<p [class.active]="isActive">Class Binding</p>
+<p [style.color]="textColor">Style Binding</p>
+<button (click)="onClick()">Event Binding</button>
+<div>
+    <input [(ngModel)]="username" placeholder="Enter your name for two way">
+    <p> your username is: {{username}}</p>
+</div>
+
